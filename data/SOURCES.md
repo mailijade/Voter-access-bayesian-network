@@ -79,7 +79,7 @@ for the `has_documents` prior. Every row in the CSV carries a `denominator` colu
 
 ---
 
-## For Srikar (Stage 2, physical access)
+## For Mai Li(Stage 2, physical access)
 
 `cdce_voterid_2024` contains substantial physical-access data that is his stage, not Stage 1:
 
