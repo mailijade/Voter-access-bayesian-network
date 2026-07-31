@@ -88,6 +88,25 @@ for the `has_documents` prior. Every row in the CSV carries a `denominator` colu
 - 41% of 18-24 year olds lack a license with current name/address
 - 21% of adults in strict-photo-ID states lack a current-name/address license
 
+### Stage 2 sources actually used
+
+`source_key: cps_2024_table10` refers to Census Bureau **Table 10: Reasons for Not Voting, By
+Selected Characteristics, November 2024**, downloaded as `.xlsx` from census.gov.
+
+**Note on transcription:** the original file is not directly machine-readable as a clean table —
+it has multiple header rows, a second "Margins of Error" sub-table starting partway down the
+sheet, and footnote markers embedded in the data. `stage2_access.csv` is a manually re-typed
+subset of the relevant rows (the 12 "reasons for not voting" percentages), not a direct export or
+automated parse of the original file. Values were cross-checked against the source and verified
+to sum to ~99.9% (rounding accounts for the remainder).
+
+**Important population caveat:** per the source table's footnote 1, this table's population is
+*registered people who reported not voting* (18,161,000 people) — not all eligible citizens, and
+not people who failed to register. We use it as a proxy for physical-access barriers under the
+assumption that similar barriers would also affect an in-person registration requirement; this is
+a modeling assumption, not a direct measurement.
+
+
 ## Still needed
 
 | For | Owner | Where |

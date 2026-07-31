@@ -1,0 +1,13 @@
+measure,subgroup,percentage,population_count,denominator,source_key,confidence_tier,notes
+reason_not_voting,too_busy_conflicting_schedule,17.8,3232700,registered_but_did_not_vote,cps_2024_table10,published,"Closest proxy for 'can't physically get there' - schedule/time barrier"
+reason_not_voting,transportation_problems,2.2,399500,registered_but_did_not_vote,cps_2024_table10,published,"Most direct proxy for physical access barrier"
+reason_not_voting,illness_or_disability,12.4,2252000,registered_but_did_not_vote,cps_2024_table10,published,"Physical access barrier, different mechanism than transportation"
+reason_not_voting,out_of_town,7.4,1343900,registered_but_did_not_vote,cps_2024_table10,published,"Access barrier - not physically present"
+reason_not_voting,registration_problems,3.6,653800,registered_but_did_not_vote,cps_2024_table10,published,"Direct hit on our registration-gate concept, though this table's population is already-registered people, so interpret with care"
+reason_not_voting,inconvenient_polling_place,2.4,435900,registered_but_did_not_vote,cps_2024_table10,published,"Access barrier, polling-location specific"
+reason_not_voting,not_interested,19.7,3577700,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
+reason_not_voting,forgot_to_vote,4.1,744600,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
+reason_not_voting,didnt_like_candidates_or_campaign,14.7,2669700,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
+reason_not_voting,bad_weather,0.3,54500,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
+reason_not_voting,other_reason,12.2,2215600,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
+reason_not_voting,dont_know_or_refused,3.1,562990,registered_but_did_not_vote,cps_2024_table10,published,"Not an access barrier - included only for the full-table verification sum"
