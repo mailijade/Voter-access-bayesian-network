@@ -1,0 +1,15 @@
+verified_by_ty,measure,subgroup,percentage,population_count,denominator,source_key,confidence_tier,notes
+yes,lacks_easy_dpoc_access,national,9.1,21300000.0,all_voting_age_citizens,cdce_voterid_2024,published,"Report: 'Over 9% of voting-age citizens, or 21.3 million people, cannot readily access DPOC.' Brennan states this as 9.1%. Includes both no-document and cannot-access-easily"
+yes,lacks_dpoc_entirely,national,1.6,3800000.0,all_voting_age_citizens,cdce_voterid_2024,derived,"Report says 'just under 2%' and 'over 3.8 million'. 1.6% derived as 3.8M / (21.3M / 0.091) for precision. SUBSET of the 21.3M, do not add"
+yes,lacks_easy_dpoc_access,citizens_of_color,11.0,8400000.0,all_voting_age_citizens,cdce_voterid_2024,published,over 8.4 million
+yes,lacks_easy_dpoc_access,white_citizens,8.0,12900000.0,all_voting_age_citizens,cdce_voterid_2024,published,over 12.9 million
+yes,lacks_dpoc_entirely,citizens_of_color,3.0,,all_voting_age_citizens,cdce_voterid_2024,published,3x the white rate
+yes,lacks_dpoc_entirely,white_citizens,1.0,,all_voting_age_citizens,cdce_voterid_2024,published,
+yes,lacks_easy_dpoc_access,independents,13.0,4500000.0,all_voting_age_citizens,cdce_voterid_2024,published,almost 4.5 million
+yes,lacks_easy_dpoc_access,democrats,10.0,9700000.0,all_voting_age_citizens,cdce_voterid_2024,published,just under 9.7 million
+yes,lacks_easy_dpoc_access,republicans,7.0,7100000.0,all_voting_age_citizens,cdce_voterid_2024,published,"over 7.1 million. Barrier crosses party lines, useful for the 'affects everyone' framing"
+yes,lacks_easy_dpoc_access,male,11.0,12000000.0,all_voting_age_citizens,cdce_2025,published,over 12 million
+yes,lacks_easy_dpoc_access,female,8.0,9000000.0,all_voting_age_citizens,cdce_2025,published,LOWER BOUND. Name-change effects not captured in the DPOC questions
+yes,lacks_easy_dpoc_access,age_18_24,,,all_voting_age_citizens,cdce_2025,published,"highest of any age group, cause given is relocation away from stored documents. No exact DPOC percentage published"
+yes,name_change_mismatch,national,,,n_a,cdce_voterid_2024,not_measured_for_dpoc,DOCUMENTED GAP. Name mismatch IS measured for driver licenses (1.5% current address but not current name) but NOT for DPOC. SAVE Act re-triggers on legal name change. Part 4 discussion-only
+yes,lacks_easy_dpoc_access,income_under_30k,,,all_voting_age_citizens,cdce_voterid_2024,not_available,"DATA IS CONFIRMED ABSENT. Report has income cuts for driver licenses and voter ID only, but not for DPOC. Bands used are under 30k / 30-50k / 50-100k / over 100k."
